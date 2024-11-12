@@ -50,6 +50,7 @@ struct Tasker {
 	typedef void* Type;
 	//type T = Type;
 	Type Info;
+	SystemBrainFuck BF;
 };
 struct TaskerCollercter {
 	const size_t Size = 1;
@@ -71,7 +72,7 @@ struct TaskerCaller {
 struct Nim {
 	Characters Name;
 	Characters Code;
-
+	Characters Param;
 	//type Type = NULL;
 	typedef void* Type;
 	//type T = Type;
